@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    background-position: center top;
+}
+body{
+    background: white;
+}
+.header{
+    height: auto;
+    width: 100%;
+    margin-bottom: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+nav .logo{
+    padding: 10px 20px;
+}
+nav .logo h2{
+    font-size: 3vh;
+    padding: 10px 20px;
+}
+nav .logo h2:hover{
+    color: rgb(251,173,124);
+    cursor: pointer;
+}
+nav .register{
+    padding: 10px 20px;
+}
+nav .register button{
+    font-size: 3vh;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(251,173,124);
+}
+nav .register button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.home_screen{
+    background-image: url('sasa.jpg');
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    max-height: 70vh;
+}
+.searchdiv{
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.searchdiv input{
+    width: 30vw;
+    height: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.searchdiv input:hover{
+    background: transparent;
+}
+.searchdiv button{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    min-height: 1vh;
+    background-color: rgb(251,173,124);
+    transition: .3s;
+}
+.searchdiv button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.contentdiv{
+    justify-content: center;
+    text-align: center;
+}
+.contentdiv h2{
+    margin: 0 10%;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40pt;
+}
+.contentdiv h6{
+    margin: 0 10%;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    font-size: 20pt;
+}
+.pets-logo{
+    width: auto;
+    margin: 0 10%;
+    max-height: 100px;
+}
+.pet-icons{
+    margin: 0 15%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.pet-icons img{
+    width: 150px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    transition: .4s;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+    border-radius: 30px;
+}
+.pet-icons img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.ad-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ad-container img{
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+.ad-container img:hover{
+    cursor: pointer;
+}
+div h3{
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 37px;
+    margin-top: 80px;
+}   
+.adopt-container{
+    margin: 0 10%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.adopt-container img{
+    display: inline-block;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    margin: 20px 17px;
+    height: 200px;
+    width: 175px;
+    transition: .3s;
+}
+.adopt-container img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.section{
+    height: 225px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #efeef1;
+    margin-bottom: 50px;
+}
+.section h2{
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+.sectiondiv{
+    display: flex;
+    justify-content: space-between;
+}
+.sectiondiv .sections{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.sectiondiv .sections h4{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.sectiondiv .sections p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.sectiondiv .sections button{
+    padding: 10px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 700;
+}
+.sectiondiv .sections button:hover{
+    background-color: rgb(251,173,124);
+    color: #efeef1;
+    border: 2px solid rgb(251,173,124);
+}
+.ad-set{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ad-set img{
+    width: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+    margin-top: 10px;
+}
+.ad-set img:hover{
+    cursor: pointer;
+}
+.blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog div{
+    display: inline-block;
+    margin-right: 40px;
+}
+.blog img{
+    border: 2px solid black;
+    margin-bottom: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 60px;
+}
+.blog p{
+    border: 2px solid black;
+    margin-top: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: .3s;
+    padding: 10px 20px 10px 20px;
+}
+.blog p:hover{
+    background-color: rgb(251,173,124);
+    cursor: pointer;
+    scale: 1.01;
+}
+.bottom-ad{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.bottom-ad img{
+    width: 450px;
+    height: 300px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.4);
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.bottom-ad img:hover{
+    cursor: pointer;
+}
+.bottom-ad div{
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+}
+footer h1{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+.footer-icon{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.footer-icon a{
+    width: 40px;
+    height: auto;
+}
+.footer-icon img{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
